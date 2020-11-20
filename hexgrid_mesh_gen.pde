@@ -41,9 +41,6 @@ void setup() {
   landscape = generate_hex_grid(MAP_SCALE, MAP_RESOLUTION, GRID_GAP_SCALE);
   water = generate_hex_grid(MAP_SCALE, MAP_RESOLUTION, 1.0);
 
-
-
-
   deltatime_lasttime = millis();
 }
 
